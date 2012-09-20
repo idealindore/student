@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  lname: MyString
+  dob: 2012-09-20
+  choose: false
+
+two:
+  lname: MyString
+  dob: 2012-09-20
+  choose: false

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Lname:</b>
+  <%= @student1.lname %>
+</p>
+<p>
+  <b>id:</b>
+  <%= @student1.id %>
+</p>
+
+<p>
+  <b>Dob:</b>
+  <%= @student1.dob %>
+</p>
+
+<p>
+  <b>Choose:</b>
+  <%= @student1.choose %>
+</p>
+
+
+<%= link_to 'Edit', edit_student1_path(@student1) %> |
+<%= link_to 'Back', student1s_path %>
